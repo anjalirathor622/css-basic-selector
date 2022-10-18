@@ -1,0 +1,31 @@
+.box{
+    width: 200px;
+    height: 200px;
+    display:inline-block;
+    text-align: center;
+    line-height:150px;
+    font-size: 2em;
+}
+#a{
+    background:red;
+}
+#b{
+    background:blue;
+}
+#c{
+    background:violet;
+}
+[data-a="one"]{
+    text-decoration:underline;
+    border:solid 5px #000;
+}
+[data-b="two"]{
+    text-decoration:underline;
+    border:dashed 5px #000;
+    border-radius:100%
+}
+[data-c="three"]{
+    text-decoration:underline;
+    border:solid 5px #000;
+}
+
